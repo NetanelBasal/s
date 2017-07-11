@@ -1,7 +1,6 @@
 <template>
   <section class="threats-table">
-    <h5 style="margin-top: 50px;font-size: 13px;
-font-weight: 700; color: #5f5f5f; text-transform: uppercase;      margin-bottom: 20px;">Threats Table</h5>
+    <h5 style="margin-top: 50px;margin-bottom: 20px;" class="section-header">Threats Table</h5>
     <template>
       <el-table
               height="300"

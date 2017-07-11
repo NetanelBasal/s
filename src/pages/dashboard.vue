@@ -3,13 +3,16 @@
   <section class="dashboard flex">
 
     <div class="left flex-2">
-      <filters></filters>
+      <!--<filters></filters>-->
       <world-presence></world-presence>
       <devices></devices>
+
+
       <bandwidth></bandwidth>
       <router-types></router-types>
+
       <threats-over-time></threats-over-time>
-      <top-threats-type></top-threats-type>
+      <!--<top-threats-type></top-threats-type>-->
     </div>
 
     <div class="middle">
