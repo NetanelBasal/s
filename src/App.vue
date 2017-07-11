@@ -2,7 +2,7 @@
   <div id="app">
     <main-nav></main-nav>
     <section class="router-view">
-      <router-view></router-view>
+      <router-view class="container"></router-view>
     </section>
   </div>
 </template>
@@ -17,6 +17,8 @@
 
 <style scoped>
   .router-view {
-    padding: 1em;
+    padding: 0 1em;
+    height: calc(100vh - 110px);
+    max-height: calc(100vh - 110px);
   }
 </style>
